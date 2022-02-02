@@ -1,4 +1,4 @@
-public class TouristTicket {
+public class TouristTicket extends Ticket {
     private String hotelAddress;
     private String[] selectedTouristLocation;
     public TouristTicket(

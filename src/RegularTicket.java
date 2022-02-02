@@ -1,4 +1,4 @@
-public class RegularTicket {
+public class RegularTicket extends Ticket {
     private String specialService;
 
     public RegularTicket(
