@@ -38,7 +38,8 @@ public class Main {
                 8000,
                 false, "food");
 
-
+        // printing pnr number
+        System.out.println(flight.checkStatus(ticket));
 
     }
 }
