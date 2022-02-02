@@ -9,7 +9,24 @@ public class Ticket {
     private String seatNo;
     private float price;
     private static boolean cancelled;
-
+    public Ticket(
+            String pnr,
+            String from,
+            String to,
+            String departureDateTime,
+            String arrivalDataTime,
+            String seatNo,
+            float price,
+            boolean cancelled) {
+        this.pnr = pnr;
+        this.from = from;
+        this.to = to;
+        this.departureDateTime = departureDateTime;
+        this.arrivalDataTime = arrivalDataTime;
+        this.seatNo = seatNo;
+        this.price = price;
+        this.cancelled = cancelled;
+    }
     public String checkStatus(){
         return pnr;
     }
